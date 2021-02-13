@@ -24,8 +24,8 @@
     display: inline-block;
     padding-top: var(--tiny-size);
     padding-bottom: var(--tiny-size);
-    padding-left: 32px;
     padding-right: 32px;
+    padding-left: 32px;
     border-radius: 4px;
 
     font-weight: 700;

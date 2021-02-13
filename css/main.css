@@ -1,0 +1,187 @@
+:root {
+    --main-color: rgba(33,33,33,1);
+    --blue-color: rgba(33,150,243,1);
+    --grey-color: rgba(117,117,117,1);
+    --white-color: rgba(255,255,255,1);
+    --black-color: rgba(0,0,0,1);
+    --color-adress: rgba(255, 255, 255, 0.6);
+    --background-color: rgba(47, 48, 58, 1);
+    --background-color-team: rgba(245, 244, 250, 1);
+    --big-size: 94px;
+    --small-size: 30px;
+    --tiny-size: 10px;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: var(--main-color);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+address {
+    font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*стили header*/
+
+.head {
+    display: flex;
+}
+
+/*стили логотипа*/
+
+.logo-nav {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.logo {
+    color: var(--blue-color);
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+
+.logo-header {
+    color: var(--black-color);
+}
+
+.logo-footer {
+    color: var(--white-color);
+}
+
+/*стили основной новигации*/
+
+.head-nav,
+.head-list,
+.contacts-list {
+    display: flex;
+}
+
+.container.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.head-list {
+    margin-left: 93px;
+}
+
+.head-list,
+.contacts-list {
+    padding-bottom: 32px;
+    padding-top: 32px;
+}
+
+.head-list li + li,
+.contacts-list li + li {
+    margin-left: 50px;
+}
+
+.head-link {
+    color: var(--main-color);
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.head-contacts {
+    color: var(--grey-color);
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.head-link:hover,
+.head-link:focus,
+.head-contacts:hover,
+.head-contacts:focus {
+    color: var(--blue-color);
+}
+
+/*стили футера*/
+.foot {
+
+    background-color: var(--background-color);
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.container.foot {
+    padding-top: calc(2 * var(--small-size));
+    padding-bottom: calc(2 * var(--small-size));
+}
+
+.logo-foot {
+    margin-bottom: 20px;
+}
+
+.foot-address {
+    padding-bottom: 9px;
+    color: var(--white-color);
+}
+
+.foot-list li + li {
+    margin-top: 9px;
+}
+
+.foot-contacts {
+    color: var(--color-adress);
+}
+
+/*скрытие заголовка*/
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+}

@@ -83,9 +83,9 @@
 /*команда*/
 
 .team {
-    background-color: var(--background-color-team);
     text-align: center;
     line-height: 19px;
+    background-color: var(--background-color-team);
 }
 
 .container.team {
@@ -103,7 +103,7 @@
 .team-list {
     display: flex;
     justify-content: space-between;
-    margin-bottom: var(--big-size);
+    padding-bottom: var(--big-size);
 }
 
 .team-list img {

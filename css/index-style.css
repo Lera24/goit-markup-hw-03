@@ -106,6 +106,10 @@
     padding-bottom: var(--big-size);
 }
 
+.team-person {
+    background-color: var(--white-color);
+}
+
 .team-list img {
     margin-bottom: var(--small-size);
 }
@@ -118,6 +122,6 @@
 }
 
 .team-position {
-    margin-bottom: var(--tiny-size);
+    margin-bottom: var(--small-size);
     color: var(--grey-color);
 }
